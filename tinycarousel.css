@@ -1,0 +1,56 @@
+/* Tiny Carousel */
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff');
+}
+#slider1 {  margin-right:100px; float:right; margin-top:67px; }
+#slider1 .viewport {     
+	float: left;
+    width: 244px;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+}
+#slider1 .buttons {
+
+    display: block;
+    margin: -46px 10px 0 0;
+    position: relative;
+    color: #ff6969;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Avenir LT Std 45 Book';
+    line-height: 100px;
+}
+#slider1 .next {
+}
+#slider1 .buttons:hover {
+  
+}
+#slider1 .disable { visibility: hidden; }
+#slider1 .overview 
+{ l
+ist-style: none;
+ position: absolute; 
+ padding: 0;
+ margin: 0; 
+ width: 240px; 
+ left: 0;
+ top: 0; }
+#slider1 .overview li { 
+	float: left;
+    margin: 0 20px 0 0;
+    height: 62px;
+    width: 240px;
+ }
+
+#slider1 .overview li  span
+{
+	font-family: 'Avenir LT Std 45 Book';
+	color:#3a3f49;
+	font-size:30px;
+}
+
